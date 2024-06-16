@@ -1,6 +1,6 @@
 const { log } = require("console")
 
-function countDuplicates(str='aabbcda') {
+function countDuplicates(str='aabbcdda') {
    let s = [...str]
    let charCount = {}
     for(let i = 0; i < s.length; i++) {
