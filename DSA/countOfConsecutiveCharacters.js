@@ -17,6 +17,8 @@ for (let i = 0; i < array.length; i++) {
   
 }
 
+console.log(arr)
+
 
 for(let value of arr) {
    obj[value[0]] = parseInt(value[1])
